@@ -1,4 +1,4 @@
-let ichika_nito = ['https://www.youtube.com/watch?v=iPySYJKX1uQ'
+let YTvideos = ['https://www.youtube.com/watch?v=iPySYJKX1uQ'
 ,'https://www.youtube.com/watch?v=WHxkr-mdj1E'
 ,'https://www.youtube.com/watch?v=WSwdPscbk28'
 ,'https://www.youtube.com/watch?v=msviAyPk9Mk'
