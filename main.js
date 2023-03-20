@@ -35,6 +35,10 @@ function playYTVideo(){
 
 }
 
+for(let i = 0;i<YTvideos.length;i++){
+    YTvideos[i] = YTvideos[i].split("https://www.youtube.com/watch?v=").pop();
+
+}
 
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
@@ -87,3 +91,21 @@ if (event.data == YT.PlayerState.ENDED){
 //   function stopVideo() {
 //     player.stopVideo();
 //   }
+
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js'); //registering a Service worker is mandatory for PWA installation
+  }
+
+
+  function prevPlay(){
+    currentIndex --;
+    player.loadVideoById({'videoId': YTvideos[currentIndex],
+    'startSeconds': 0})
+  }
+
+  function nextPlay(){
+    currentIndex ++;
+    player.loadVideoById({'videoId': YTvideos[currentIndex],
+    'startSeconds': 0})
+  }

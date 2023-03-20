@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>YTChannelPlayer</title>
+    <link rel="stylesheet" href="./style.css"> <!--adding stylesheets-->
+    <link rel="manifest" href="./manifest.json"><!--adding manifest (required for PWA)-->
+    <meta name="theme-color" content="#fe0000"/><!--theme-color (required for PWA) : Used for the color of the menubar in chrome desktop and mobile and notification bar in PWA mode-->
+    <link rel="apple-touch-icon" href="./img/apple_touch_icon.png"><!--required for PWA to be installable on IOS devices : need to be  a non-transparent 192px (or 180px) square PNG-->
 </head>
 <body>
+
+    <a href="https://github.com/Brajo280603/PlayAllVidsOfYTChannel" target="_blank">Follow these steps to get all the links</a>
+    <p>if any error occurs try skipping the video</p>
     <div style="margin:1rem;padding:1rem">
         <input id="YTvidraw" type="text" placeholder="enter the whole videos links">
         <button id="playBtn">Play Vidoes</button>
     </div>
     
+    <div style="margin:1rem;padding:1rem">
+        <button onclick="prevPlay()">prev video</button>
+        <button onclick="nextPlay()">skip video</button>
+    </div>
 
 
     <div id="player"></div>
