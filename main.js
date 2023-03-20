@@ -7,6 +7,8 @@ playBtn.addEventListener("click",()=>{
     
 })
 
+let currentIndex = 1;
+
 function playYTVideo(){
 
     
@@ -68,7 +70,7 @@ function onPlayerReady(event) {
 //   //    The function indicates that when playing a video (state=1),
 //   //    the player should play for six seconds and then stop.
 //   var done = false;
-let currentIndex = 1;
+
 function onPlayerStateChange(event) {
 if (event.data == YT.PlayerState.PLAYING && !done) {
 //   setTimeout(stopVideo, 6000);
