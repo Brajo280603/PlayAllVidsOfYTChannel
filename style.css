@@ -3,8 +3,22 @@ button{
   border-radius: 1rem;
   padding: 0.5rem;
   box-shadow: none;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-color: #510000;
   font-weight: 600;
   font-size: 0.8rem;
   color: grey;
+}
+
+/* .player {
+  width: 100%;
+  height: 100%;
+} */
+
+body{
+  background-color:#272727 ;
+  color: #fe0000;
+}
+a{
+  color: #fe0000;
 }
