@@ -27,10 +27,10 @@ function playYTVideo(){
 
     console.log(YTvideos);
 
+    currentIndex = 0;
 
     player.loadVideoById({'videoId': YTvideos[currentIndex],'startSeconds': 0});
 
-    currentIndex = 0;
     
 
 }
