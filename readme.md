@@ -1,6 +1,6 @@
 # Playing all videos from a channel of Youtube
 
-[![portfolio](https://www.flaticon.com/free-icon/youtube_1077097?related_id=1077046&origin=search#)](https://brajo280603.github.io/PlayAllVidsOfYTChannel/)
+[![YTChannelPlayer](https://github.com/Brajo280603/PlayAllVidsOfYTChannel/raw/main/img/youtube.png)](https://brajo280603.github.io/PlayAllVidsOfYTChannel/)
 
 1.first get all the links of the youtube channel
 
