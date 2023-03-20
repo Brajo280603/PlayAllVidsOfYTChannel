@@ -1,6 +1,8 @@
 # Playing all videos from a channel of Youtube
 
-[![YTChannelPlayer](https://github.com/Brajo280603/PlayAllVidsOfYTChannel/raw/main/img/youtube.png)](https://brajo280603.github.io/PlayAllVidsOfYTChannel/)
+[![YTChannelPlayer](https://github.com/Brajo280603/PlayAllVidsOfYTChannel/raw/main/img/maskable_icon_x96.png)](https://brajo280603.github.io/PlayAllVidsOfYTChannel/)
+
+[YTChannelPlayer](https://brajo280603.github.io/PlayAllVidsOfYTChannel/)
 
 1.first get all the links of the youtube channel
 
